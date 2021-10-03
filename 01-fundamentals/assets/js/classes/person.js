@@ -5,12 +5,18 @@ class Person {
     name = '';
     codeName = '';
     phrase = '';
+    food = '';
 
     constructor(name = 'no name', codeName = 'no codeName', phrase = 'no phrase'){
 
         this.name = name;
         this.codeName = codeName;
         this.phrase = phrase;
+    }
+
+    set setFavoriteFood ( food ){ // example of setter
+
+        this.food = food;
     }
 
     whoIam(){
@@ -31,6 +37,9 @@ console.log(ironman);
 
 //spiderman.whoIam();
 //ironman.whoIam();
+//spiderman.myPhrase();
+//ironman.myPhrase();
 
-spiderman.myPhrase();
-ironman.myPhrase();
+spiderman.setFavoriteFood = 'Pie of Aunt May';
+
+console.log(spiderman);
