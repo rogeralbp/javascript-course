@@ -1,3 +1,9 @@
 # JavaScript exercises
 
-JavaScript exercises with the basics
+JavaScript Basis exercises 
+- Alerts
+- If-else
+- OOP
+- DOM
+- Functions
+- Console Use
