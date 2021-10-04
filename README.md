@@ -7,3 +7,9 @@ JavaScript Basis exercises
 - DOM
 - Functions
 - Console Use
+- BreakPoints
+- Loops
+- Control Stucture
+- Modules and his Optimitation
+- Singleton
+- ESNext ***
