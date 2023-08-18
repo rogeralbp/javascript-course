@@ -1,9 +1,9 @@
 // First line of code
 //console.log('Hello World');
 //variables
-//let a = 10; //modern way to initialize variables
-//var b = 20; //first way to manage variable implemented
-//const c = 2021; //current year
+let a = 10; //modern way to initialize variables
+var b = 20; //first way to manage variable implemented, no longer used at all, just for rendering (node.js thing)
+const c = 2021; //current year
 
 //let d = 40;
 // Pollyfil =  chunk of modern JS code to use in previous version of JS
