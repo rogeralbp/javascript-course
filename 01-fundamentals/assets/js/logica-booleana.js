@@ -38,3 +38,23 @@ console.log('========== || ==========');
 console.log(true || false);//true
 console.log(false || true);//true
 console.log('Cuatro condiciones', true || true || true || false ); // en la validacion OR AL MENOS 1 variable debe ser true para que el resultado sea true
+
+console.warn('Asignaciones')
+console.log('========== ASIGNACIONES ==========');
+
+const a1 = true && 'Roger' && 55 ;//55
+const a2 = 150 && false && 'quijadas';//false
+const a3 = false || 'NO SOY FALSE';//NO SOY FALSE
+const a4 = true && 'Roger';//Roger
+const a5 = false || undefined || 'NO SOY FALSE DE NUEVO' || true; //NO SOY FALSE DE NUEVO
+
+console.log({a1,a2, a3, a4, a5});
+
+if(a1 && a4 && a2){
+
+    console.log('algo');
+    
+}else{
+    console.log('nada');
+    
+}
