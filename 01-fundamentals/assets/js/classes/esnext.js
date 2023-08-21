@@ -15,7 +15,7 @@ class Rectangle{
     }
 
     calcultateArea(){
-        console.log(this.area * 2);
+        console.log(`${this.area} mupltiplicado por 2 es =`,this.area * 2);
     }
 }
 

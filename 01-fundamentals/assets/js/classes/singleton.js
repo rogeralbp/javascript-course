@@ -1,13 +1,16 @@
 // unique and only instance of a class
-
+/**
+ * se usa para instanciar un dato para todos los objetos de una clase
+ * comparte un dato a lo largo de una aplicacion se ahorra memoria, etc
+ */
 class Singleton {
 
-    static instance;
+    static instance;//sino se asigna valor, se setea a null or undefined
     name = '';
 
 
     constructor(name = ''){
-        
+        /**sino se instancia se tomara el nombre como instancia */
         if(!! Singleton.instance){
             return Singleton.instance;
         }
@@ -18,7 +21,7 @@ class Singleton {
 
 }
 
-const instance1 = new Singleton('BatMan');
+const instance1 = new Singleton('Rogercito');
 const instance2 = new Singleton('Robin');
 
 console.log(`Instance 1 Name is  ${instance1.name}`);
