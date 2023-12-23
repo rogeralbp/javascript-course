@@ -1,8 +1,8 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
-import {enviromentsComponent} from './source/concepts/01-enviroments';
-import {callbacksComponent} from './source/concepts/02-callbacks';
+import { enviromentsComponent } from './source/concepts/01-enviroments';
+import { callbacksComponent } from './source/concepts/02-callbacks';
 
 
 document.querySelector('#app').innerHTML = `
@@ -15,6 +15,7 @@ document.querySelector('#app').innerHTML = `
     </a>
     <h1>Hello Vite!</h1>
     <div class="card">
+      <img id="card-image" src="" class="img-thumbnail" alt="...">
     </div>
   </div>
 `

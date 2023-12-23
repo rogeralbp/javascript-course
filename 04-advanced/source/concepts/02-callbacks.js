@@ -6,7 +6,7 @@ import { heroes } from '../data/heroes'
  */
 export const callbacksComponent = (element) => {
 
-    const id = '5d86371f233dc9f2425f16916';
+    const id = '5d86371fd55e2e2da30fe1cc4';
     findHero(id, (error, hero) => {
 
         //aqui se esta haciendo la logica del callback
@@ -15,7 +15,7 @@ export const callbacksComponent = (element) => {
              console.log(error);
              return;
          }
-        element.innerHTML = hero.name;
+        element.innerHTML = `<img id="app-image" src="${hero.picture}" class="img-thumbnail" alt="${hero.name}">`;
     });
 
 }
