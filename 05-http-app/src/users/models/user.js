@@ -4,7 +4,7 @@ export class User {
 
     /**
      * 
-     * @param {Like<User>} information 
+     * @param {Like<User>} object information 
      */
     constructor({id,isActive,balance,avatar,firstName,lastName,gender}){
       this.id       = id,
@@ -16,3 +16,5 @@ export class User {
       this.gender   = gender
     }
 }
+
+//export default User; // Asegúrate de tener algo como esto

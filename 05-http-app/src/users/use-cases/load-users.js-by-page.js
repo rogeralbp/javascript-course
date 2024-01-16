@@ -1,4 +1,6 @@
 
+import {localhostUserToModel} from '../mappers/localhost-user.mapper';
+
 /**
  * 
  * @param {Number} page 
@@ -11,8 +13,7 @@ export const loadUsersByPage = async( page=1) => {
 
     const res = await fetch(url);
     const data = await res.json();
-
-    //console.log(import.meta.env);
-    console.log({data});
+    const users = data.data.map(userLike => localhostUserToModel(userLike) );
+    console.log(users);
     
 }
